@@ -1,0 +1,109 @@
+<h1 id="notes-by-nota">Notes: By Nota</h1>
+<h2 id="nota">Nota</h2>
+<p>Nota, is a simple script to manage notes. It manages all my class notes which are markdown files and compiles them to PDF versions. This is so people can see my notes and I can share them easier. Not only that but the PDF version makes for easier reading, while the markdown versions are easy to edit and easy to search for items. Hope you enjoy!</p>
+<h1 id="topic-running-times">Topic: Running Times</h1>
+<h2 id="algorithm-analysis">Algorithm Analysis</h2>
+<ul>
+<li>Space Efficiency: Somewhat Important</li>
+<li>Time Efficiency: <strong>SUPER IMPORTANT!</strong></li>
+</ul>
+<h2 id="running-time">Running Time</h2>
+<p><code>Running Time = T(n)</code> - N is usually the size of the input: - Number of items to sort - Number of items to search - Size of objects</p>
+<ul>
+<li>Cases:
+<ul>
+<li>Worst Case (Most Common)</li>
+<li>Average Case</li>
+<li>Amortized</li>
+<li>Best Case</li>
+</ul></li>
+<li>Factors To Ignore:
+<ul>
+<li>Small Input Size</li>
+<li>Speed of the Machine</li>
+</ul></li>
+</ul>
+<h2 id="big-o">Big O</h2>
+<h3 id="formula">Formula</h3>
+<p><br /><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?n%20%5Cge%20n_0%2C%20f%28n%29%20%5Cle%20g%28n%29" alt="n \ge n_0, f(n) \le g(n)" title="n \ge n_0, f(n) \le g(n)" /><br /></p>
+<h2 id="models-of-computation">Models of Computation</h2>
+<ul>
+<li>A mathematical model that represents the actual computers on which algorithms will be run</li>
+<li>Provides a way to analyze algorithms without having to actually run them</li>
+<li>Examples:
+<ul>
+<li>Turning Machine (TM)</li>
+<li>Random Access Machine (RAM)</li>
+<li>Parallel Random Access Machine (PRAM)</li>
+</ul></li>
+<li>RAM: Rules for running-time analysis
+<ol type="1">
+<li>Each simple arithmetic operation takes constant time</li>
+<li>Each assignment takes constant time</li>
+<li>Running time of a sequence is the sum of each statement</li>
+<li>Running time of an if is the sum of all sections</li>
+<li>Running time of a loop is iterations times body</li>
+<li>Nested loops are Rule 5 from inside out</li>
+</ol></li>
+</ul>
+<h1 id="topic-adts">Topic: ADTs</h1>
+<ul>
+<li>A description of a data structure containing:
+<ul>
+<li>I. Some information about how the data is organized (maybe)<br />
+</li>
+<li><ol start="2" type="I">
+<li>A list of primitive operations that acess or modify the data<br />
+</li>
+</ol></li>
+<li><strong>No Implementation Details</strong></li>
+</ul></li>
+</ul>
+<h2 id="adt-01--list-adt">ADT #01- List ADT</h2>
+<p>An ordered sequence of elements (not necessarily sorted)</p>
+<h3 id="primitive-operations">Primitive Operations</h3>
+<ul>
+<li><code>Length(list)</code> - Returns the number of elements in the list</li>
+<li><code>GetFirst(list)</code> - Returns the first element in the list</li>
+<li><code>GetLast(list)</code> - Returns the last element in the list</li>
+<li><code>Prepend(list, x)</code> - Inserts x into list at the beginning</li>
+<li><code>Append(list, x)</code> - Inserts x into list at the end</li>
+<li><code>RemoveFirst(list)</code> - Removes the first element in the list</li>
+<li><code>RemoveLast(list)</code> - Removes the last element in the list</li>
+<li><code>CreateEmptyList()</code> - Reurns a newly created, empty list</li>
+<li><code>IsEmpty(list)</code> - Returns <code>True</code> if list has no elements, else <code>False</code></li>
+</ul>
+<h3 id="implementations">Implementations</h3>
+<h4 id="array">Array</h4>
+<h5 id="description">Description</h5>
+<p>Continuous block of memory which is not dynamically allocated. Ex. Java.</p>
+<h5 id="advantages">Advantages</h5>
+<ul>
+<li>Easy to work with and write</li>
+<li>Easy access to any element within the array</li>
+</ul>
+<h5 id="disadvantages">Disadvantages</h5>
+<ul>
+<li>O(n) time to insert new elements</li>
+<li>Memory allocation issues</li>
+<li>Can’t increase size without O(n)</li>
+</ul>
+<h4 id="linked-list">Linked List</h4>
+<h5 id="description-1">Description</h5>
+<ul>
+<li>There are two types of objects - Node &amp; Header:
+<ul>
+<li>List elements are stored in the nodes</li>
+<li>Header is used to access the list</li>
+</ul></li>
+</ul>
+<h5 id="advantages-1">Advantages</h5>
+<ul>
+<li>Improved running time over array</li>
+<li>Solves storage problems since it’s dynamic</li>
+</ul>
+<h5 id="disadvantages-1">Disadvantages</h5>
+<ul>
+<li>Harder to work with and implement</li>
+<li>Inserting elements is still O(n)</li>
+</ul>
