@@ -1,6 +1,6 @@
 # Year 10
 ## Precalc
-[Precalc Notes](ClassPreCalc) 
+[Precalc Notes](ClassPrecalc) 
 
 ## CS50
 [CS50 Notes](ClassCS50)
