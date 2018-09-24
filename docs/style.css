@@ -67,3 +67,9 @@ table td {
   border-left: 1px solid #ddd;
   vertical-align: top;
 }
+
+a:link, a:visited, a:hover, a:active {
+    color: #72a7cf;
+    font-family: 'Nunito';
+    text-decoration: none;
+}
