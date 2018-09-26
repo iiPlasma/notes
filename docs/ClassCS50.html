@@ -79,4 +79,63 @@
 <li>Base case for when to stop</li>
 </ul></li>
 </ul>
+<h1 id="week-8">Week 8</h1>
+<h2 id="sql">SQL</h2>
+<ul>
+<li>Description: Database for storing information</li>
+<li>SQL stands for Structured Query Language</li>
+<li>Sole purpose is to query a database</li>
+</ul>
+<h3 id="tables">Tables</h3>
+<ul>
+<li>Description: Inside your database, you need to store tables.</li>
+<li>You’ll have to make every column</li>
+<li>All queries query for information in each row</li>
+<li>Every column can store different types</li>
+</ul>
+<h3 id="data-types">Data Types</h3>
+<ul>
+<li>Int: Stores integers</li>
+<li>SmallInt, TinyInt, MediumInt, LargeInt: Different upper bounds</li>
+<li>Decimal: A.K.A Doubles</li>
+<li>Floats: Floating point numbers</li>
+<li>Date: Current date</li>
+<li>Time: Current time</li>
+<li>Datetime: Specific date and time</li>
+<li>Timestamp: THIS SPECIFIC DATE AND TIME</li>
+<li>Text: A.K.A Strings</li>
+<li>Enums: Only can store limited set of values</li>
+<li>Char: Fixed length string</li>
+<li>VarChar: Variable-length string, also needs max length</li>
+</ul>
+<h3 id="primary-key">Primary Key</h3>
+<ul>
+<li>Description: Primary keys allow rows to be uniquely identified</li>
+<li>Also possible to have two rows that together will always be unique</li>
+<li><strong>MUST HAVE</strong></li>
+<li>Good idea to have it as an integer and have it autoincrement</li>
+</ul>
+<h3 id="primary-operations">Primary Operations</h3>
+<ol type="1">
+<li>Insert:
+<ul>
+<li>Adds information to a table</li>
+<li>Skeleton: <code>INSERT INTO &lt;table&gt; (&lt;columns&gt;) VALUES (&lt;VALUES&gt;)</code></li>
+</ul></li>
+<li>Select:
+<ul>
+<li>Extract information from a table</li>
+<li>Skeleton: <code>SELECT &lt;columns&gt; FROM &lt;table&gt; (WHERE &lt;condition&gt; ORDER BY &lt;column&gt;)</code></li>
+</ul></li>
+<li>Update:
+<ul>
+<li>Modify information in a table</li>
+<li>Skeleton: <code>UPDATE &lt;table&gt; SET &lt;column&gt; = &lt;value&gt; WHERE &lt;condition/&gt;</code></li>
+</ul></li>
+<li>Delete
+<ul>
+<li>Remove information in a table</li>
+<li>Skeleton: <code>DELETE FROM &lt;table&gt; WHERE &lt;condition&gt;</code></li>
+</ul></li>
+</ol>
 </body>
