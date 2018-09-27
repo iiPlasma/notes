@@ -8,7 +8,6 @@
 - F: Flourine
 - Na: Sodium
 - Ne: Neon
-- H: Hydrogen
 - He: Helium
 - B: Boron
 
