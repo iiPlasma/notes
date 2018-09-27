@@ -35,7 +35,7 @@
 - Ni: Nickel
 - Cu: Copper
 - Zn: Zinc
-- Br: Bromium
+- Br: Bromine
 
 ## Week 4
 - Kr: Krypton
