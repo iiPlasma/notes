@@ -113,4 +113,13 @@
 <li>Harder to work with and implement</li>
 <li>Inserting elements is still O(n)</li>
 </ul>
+<h3 id="summary">Summary</h3>
+<p>List ADTs are used to store information in an categorized, non sorted fashion. The two implementations we studied are an Array with extra buffer space and a linked list. While the array could do most operations quickly, prepend was innefficient and the extra buffer space meant a waste of memory that didn’t have a purpose. Basically memory leaking by using this method. The Linked List with a header allowed for faster times of pretty much all the operations except append which required a loop to the second to last item in the list.</p>
+<h1 id="topic-algorithms">Topic: Algorithms</h1>
+<h2 id="merge-sort">Merge Sort</h2>
+<h3 id="merge-sort-1">Merge Sort</h3>
+<ul>
+<li><p>Split the array into two halves. Recursively sort each half.</p></li>
+<li><p>To merge 2 sorted arrays, create an empty array to hold the combined. Put a finger at the beginning of both. Copy the lesser of the two keys into the next empty cell and advance one position. Continue doing this till one array runs out. Move the rest of the array.</p></li>
+</ul>
 </body>
